@@ -1,0 +1,216 @@
+
+*
+{
+  margin:auto;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(15, 154, 172);
+  }
+
+  nav {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* background-color: #1ccb8e; */
+    color: #0b0a0a;
+    padding: 10px ;
+    position: static;
+    top: 0;
+    z-index: 100;
+  }
+  .bgimg{
+    background-image: url(./Background-Header-1.jpg);
+    opacity: 0.7;
+    position: static;
+    width: 100%;
+    padding: 10px ;
+    display: block;
+    margin: 0%;
+
+  
+  }
+  nav .container {
+    image-resolution: 30px;
+    border-image: space;
+    border-image-width: 20;
+    display: flex;
+    justify-content: space-between;
+    align-items: right;
+    margin: 3vh;
+  }
+
+  nav h1 {
+    font-size: 28px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    padding:2vh 10vh 0vh 10vh ;
+  }
+  
+  nav li {
+    margin-left: 20px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  nav a:hover {
+    color: #d192bb;
+  }
+  
+  .frames-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background: url("https://images.pexels.com/photos/317356/pexels-photo-317356.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-repeat: repeat;
+    background-size:contain;
+    padding: 20px;
+  }
+  
+  .frame {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    margin-top: 20vh;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: space-between;
+    margin: auto;
+  }
+  .container img{
+    position: relative;
+    transform: scale(0.6);
+    margin: auto;
+    width: 40vh;
+    height: 40vh;
+    border-radius: 3vh;
+    display: flex;
+    box-shadow: 2vh 2vh 2vh 1em rgb(12, 131, 146);
+    }
+
+ .hobbies{
+  display: flex;
+  list-style-type: bullet;
+  
+ }
+
+  
+ .text{
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+ .text:hover{
+  transform: scale(0.6);
+ }
+  
+  h2 {
+    color: #1c1a1b;
+    font-size: 36px;
+    margin-bottom: 5vh;
+  }
+#aboutme
+{
+  margin-left:35%;
+  margin-bottom: 5vh;
+}
+  
+  h3 {
+    font-size: 24px;
+    color: #1c191a;
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 20px;
+  }
+  
+  a {
+    color: #1f1b1d;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+  button {
+    padding: 12px 24px;
+    background-color: #df3780;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  button:hover {
+    background-color: #c9b57a;
+  }
+  
+  /* Add a nice gradient background to the header section
+  nav {
+    background: linear-gradient(45deg, #e766be, #d192bb);
+  }
+  
+  /* Add a subtle shadow to the main content section */
+   .frames-container {
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+  }
+   */
+  /* Improve readability of project links */
+   ul li a {
+    font-weight: bold;
+  } */
+  
+  /* Add a border and padding to the profile image */
+   aside img {
+    border-radius: 50%;
+    border: 5px solid #df3780;
+    padding: 5px;
+  } 

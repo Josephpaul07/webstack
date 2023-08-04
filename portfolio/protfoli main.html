@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Joseph Paul- Personal Portfolio</title>
+  <link rel="stylesheet" href="./protfoli main.css ">
+</head>
+<body>
+    <div class="container" id="img1">
+      <img src="./1691073486106.jpg">
+    </div>
+    <div class="text">
+      <h1>Joseph Paul</h1>
+      <h5>Web developer|...</h5>
+      </div>
+    </div>
+
+    <nav>
+    <div class="bgimg">
+      <ul>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#hobbies">Hobbies</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact Me</a></li>
+      </ul>
+      
+    </div>
+  </nav>
+
+  <div class="frames-container">
+    <div class="frame" id="about">
+      <div class="container">
+        <h2 id = "aboutme">About Me</h2>
+        <p>
+          Hi! I'm Joseph Paul <br> MCA student in  
+          Christ Deemed to be University. 
+          I am passionate about web developing  
+          in the field of computer science and enjoy football.
+        </p>
+      </div>
+    </div>
+
+    <div class="frame" id="education">
+      <div class="container">
+        <h2>Education</h2>
+        <ul>
+          <li>
+            <h3>Master of Computer Applications</h3>
+            <p>Currently pursing MCA in Christ (Deemed to be University)</p>
+          </li>
+          <li>
+            <h3>Bachelor of Computer Applications</h3>
+            <p>MG University</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+
+    <div class="frame" id="projects">
+      <div class="container">
+        <h2>Projects</h2>
+        <ul>
+          <li>
+            <a href="https://www.example-project1.com" target="_blank">Project 1</a>
+            <p>A  project in Salon management system .</p>
+          </li>
+          
+        </ul>
+      </div>
+    </div>
+
+    <div class="frame" id="hobbies">
+      <div class="container">
+        <h2>Hobbies</h2>
+        <ul>
+          <li>Football</li>
+          <li>Movies</li>
+          <li>traveling</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="frame" id="contact">
+      <div class="container">
+        <h2>Contact Me</h2>
+        <form onsubmit="return false;">
+          <input type="text" id="name" placeholder="Your Name" required>
+          <input type="email" id="email" placeholder="Your Email" required>
+          <textarea id="message" placeholder="Your Message" required></textarea>
+          <button onclick="sendMessage()">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
